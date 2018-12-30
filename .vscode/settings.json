@@ -1,0 +1,18 @@
+{
+    "python.pythonPath": ".venv/bin/python",
+    "files.autoSave": "afterDelay",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.unitTest.unittestEnabled": true,
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test*.py"
+    ],
+
+    
+}
